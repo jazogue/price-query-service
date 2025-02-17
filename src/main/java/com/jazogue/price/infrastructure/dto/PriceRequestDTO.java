@@ -2,8 +2,6 @@ package com.jazogue.price.infrastructure.dto;
 
 import java.time.LocalDateTime;
 
-import jakarta.validation.constraints.NotNull;
-
 public class PriceRequestDTO {
 
 	private LocalDateTime applicationDate;
