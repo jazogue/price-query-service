@@ -58,8 +58,8 @@ GET /api/price?applicationDate=2020-06-14T10:00:00&productId=35455&brandId=1
 #### **Ejemplo de Respuesta**
 ```json
 {
-  	"productId": 35455,
-  	"brandId": 1,
+	"productId": 35455,
+	"brandId": 1,
 	"priceList": 1,
 	"startDate": "2020-06-14T00:00:00",
 	"endDate": "2020-12-31T23:59:59",
