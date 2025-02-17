@@ -88,7 +88,7 @@ La base de datos en memoria se puede consultar desde el navegador:
 - **Usuario**: `sa`
 - **Contraseña**: *(vacío)*
 
-## Ejecución de Pruebas
+## Ejecución de Pruebas Unitarias
 
 El servicio cuenta con pruebas automatizadas para validar el correcto funcionamiento del endpoint `GET /api/price`. Para ejecutarlas:
 
@@ -104,6 +104,14 @@ Los tests validan las siguientes condiciones:
 4. **Consulta con Precio Existente**
 5. **Consulta con Precio No Existente**
 6. **Consulta con Fecha Posterior a la Vigencia del Precio**
+
+## Pruebas Integradas con Postman
+
+Este proyecto incluye una colección de **Postman** para realizar pruebas integradas de la API. Para utilizarla, sigue estos pasos:
+
+1. Descarga el archivo de la colección de Postman, disponible en la carpeta `/postman`.
+2. Importa la colección en Postman usando la opción de **Importar**.
+3. Una vez importada, ejecuta la solicitud al endpoint `GET /api/price` para realizar una consulta de precio.
 
 ## Arquitectura
 
